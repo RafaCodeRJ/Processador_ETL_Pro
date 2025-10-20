@@ -35,7 +35,7 @@ Uma aplicação desktop profissional para processamento ETL (Extract, Transform,
 ### Instalação via pip
 ```bash
 # Clone o repositório
-git clone https://github.com/RafaCodeRJ/processador-etl-pro.git
+git clone https://github.com/RafaCodeRJ/Processador_ETL_Pro.git
 cd processador-etl-pro
 
 # Instale as dependências
