@@ -1,0 +1,15 @@
+pandas>=1.5.0
+openpyxl>=3.0.0
+PyQt6>=6.4.0
+numpy>=1.21.0
+sqlite3>=2.6.0
+
+# Para transcrição de mídia (opcional)
+speechrecognition>=3.8.0
+pydub>=0.25.0
+moviepy>=1.0.0
+
+# Para desenvolvimento
+pytest>=6.0.0
+black>=22.0.0
+flake8>=4.0.0
