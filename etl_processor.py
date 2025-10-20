@@ -137,7 +137,7 @@ class ETLProcessor:
                 temp_audio = tempfile.NamedTemporaryFile(
                     delete=False, suffix='.wav')
                 video.audio.write_audiofile(
-                    temp_audio.name, verbose=False, logger=None)
+                    temp_audio.name, logger=None)
                 audio = AudioSegment.from_file(temp_audio.name)
                 temp_audio.close()
                 os.unlink(temp_audio.name)
@@ -1020,3 +1020,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
